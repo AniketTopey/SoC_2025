@@ -1,3 +1,7 @@
+//This is an unsuccessful attempt.
+//1566 out of 1569 testcases passed!
+//I know I shouldn't have used this method, but I gave it a shot anyway.
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
