@@ -31,13 +31,12 @@ int main() {
   for(int i=0;i<n;i++){
     cin>>arr[i];
   }
-  int start = 0, end = n-1;
-  int ans = binarysearch(arr,start,end);
+ 
+  int ans = binarysearch(arr,0,n-1);
   cout<<ans<<endl;
   
   return 0;
 }
-
 
 int binarysearch(vector<int> arr, int start, int end){
   
@@ -57,5 +56,4 @@ int binarysearch(vector<int> arr, int start, int end){
     int rightans = binarysearch(arr,midindex+1,end);
     return max(leftans,rightans);
   }
-  
 }
