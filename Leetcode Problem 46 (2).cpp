@@ -13,7 +13,6 @@ public:
           swap(arr[index],arr[k]);
       }
       
-       
    }
 
     vector<vector<int>> permute(vector<int>& nums) {
