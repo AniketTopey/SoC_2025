@@ -1,3 +1,4 @@
+//This is a unsuccessful attempt. It passes 33/46 testcases.
 class Solution {
 public:
     string decodeAtIndex(string s, int k) {
